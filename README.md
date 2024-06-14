@@ -53,5 +53,6 @@ For Windows users, ensure you are using the appropriate command prompt (e.g., Co
 - This script has been tested on Linux, but it should also work on other operating systems with Python installed.
 - The images contained in `raw_images` have a specific structure. Although the images have the .tiff extension, they cannot be viewed in a regular photo editor. Therefore, the code includes the ability to read both .png and .jpg images. Additionally, after execution, the code saves the original dataset image it processed in .png format.
 - For additional dataset images and further collaboration, please contact m.chukalina@smartengines.ru.
+- The script processes all images in the `raw_data` directory, operating on CPU (no GPU required). For each image in `raw_data`, the script generates 3 images in the `segmented_data` directory: the original image, the mask, and the mask overlaid on the original image. The images are generated in PNG format. You can use PNG, JPG, or the original dataset format for processing.
 
 Please follow these instructions carefully to ensure successful execution of the model. If you have any questions or encounter any issues, feel free to reach out for support.
