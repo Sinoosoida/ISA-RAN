@@ -1,7 +1,13 @@
 
 # ISA-RAN Model Repository
 
-This repository contains the model for semantic segmentation of olfactory bulbs on phase-contrast computed tomography scans, along with the necessary script to run the model. By selecting appropriate augmentation and using fine-tuning techniques, we achieved an IoU of 0.42 on the test set.
+This repository contains the model for semantic segmentation of olfactory bulbs on phase-contrast computed tomography scans, along with the necessary script to run the model. By selecting appropriate augmentation and using fine-tuning techniques, we achieved an IoU of 0.42 on the test set. Sure, here is the translation:
+
+---
+
+For more details, you can read the article: [http://link.com](http://link.com)
+
+---
 
 ## Prerequisites
 
