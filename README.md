@@ -1,7 +1,7 @@
 
 # ISA-RAN Model Repository
 
-This repository contains the ISA-RAN model described in the accompanying article, along with the necessary script to run the model.
+This repository contains the model for semantic segmentation of olfactory bulbs on phase-contrast computed tomography scans, along with the necessary script to run the model.
 
 ## Prerequisites
 
