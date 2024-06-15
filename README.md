@@ -1,9 +1,9 @@
 
-# ISA-RAN Model Repository
+# Glomeruli Segmentation in X-ray Phase Contrast Tomography of the Human Olfactory Bulb Using U-Net
 
 This repository contains the model for semantic segmentation of olfactory bulbs on phase-contrast computed tomography scans, along with the necessary script to run the model. By selecting appropriate augmentation and using fine-tuning techniques, we achieved an IoU of 0.42 on the test set.
 
-For more details, you can read the article: [http://link.com](http://link.com)
+For more details, you can read the article: [http://link.com](http://link.com), DOI. 
 
 ---
 
