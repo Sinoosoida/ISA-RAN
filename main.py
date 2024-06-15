@@ -56,8 +56,6 @@ class UNet(nn.Module):
         x = self.final_conv(u0)
         return self.activation(x)
 
-
-# Загрузка модели
 model = torch.load("./model.pth", map_location=torch.device('cpu'))
 
 
@@ -71,7 +69,6 @@ def image_processing(name: str, is_img: bool = True) -> torch.Tensor:
 
 
 def load_and_preprocess_image(image_path: str, image_processing, T=None, T_x=None) -> torch.Tensor:
-    # Загрузка изображения
     image = image_processing(image_path, is_img=True)
 
     image_shape = image.shape
