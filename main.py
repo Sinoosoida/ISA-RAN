@@ -2,7 +2,6 @@ import os
 import numpy as np
 import torch
 import torch.nn as nn
-import pytorch_lightning as pl
 import albumentations as A
 from albumentations.pytorch import ToTensorV2
 from PIL import Image
